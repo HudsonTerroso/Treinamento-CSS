@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divtemp{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header{
+    background-color: #c4c4c4;
+    padding: 28px 30px 28px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista{
+    margin-top: 5px;
+    gap: 20px;
+    list-style: none;
+    display: flex;
+    padding-top: 5px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f3f3f3;
+}
+
+.container img{
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    height: auto;
+}
+
+.texto{
+    padding-bottom: 30px;
+}
+
+.texto h2{
+    margin-bottom: 30px;
+}
+
+.bigcontainer{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;    
+}
+
+.texto2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    margin-left: 470px;
+}
+
+.texto2-1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    gap: 20px; 
+}
+
+.card{
+    padding: 10px;
+    background-color: #dfdfdf;
+    border-radius: 5px;
+    width: 102px;
+    height: 150px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    text-align: center;
+    margin: 0px;
+}
+
+.numero{
+    background-color: #c4c4c4;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+    color: #333;
+    margin-bottom: 90px;
+    margin-right: 10px;
+    
+}
+
+.container3{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    gap: 20px;
+}
+
+.container4{
+    align-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 80px;
+}
+
+.container4 h2{
+    margin-bottom: 20px;
+    gap: 10px;
+    display: flex;
+}
+
+.entrada1{
+    padding: 15px;
+    background-color: #ececec;
+    border-radius: 4px;
+    display: flex;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.entrada{
+    padding: 15px;
+    background-color: #ececec;
+    border-radius: 4px;
+    display: flex;
+    margin-left: 40px;
+}
+
+.botao{
+    background-color: #d9d9d9;
+    margin-top: 15px;
+    width: 127px;
+    height: 37px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5%;
+    margin-left: 900px;
+}
+
+.footer{
+    background-color: #c4c4c4;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    margin-top: 20px;
+    flex-direction: row-reverse;
+}
+
+.lista1{
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    list-style: none;
+    display: flex;
+    padding: 16px 32px 16px 32px;
+
+}
+
+.item img{
+    width: 32px;
+    height: 32px;
+}
+
+.botao1{
+    background-color: #d9d9d9;
+    width: 162px;
+    height: 38px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5%;
+
+}
+
+
+@media (max-width: 768px) {
+    header {
+        /*flex-direction: column;*/
+        align-items: center;
+        gap: 15px;
+    }
+
+    .bigcontainer{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        padding: 20px;
+    }
+
+    .container {
+        flex-direction: column; 
+        /*text-align: center;*/
+        padding-top: 30px;
+        gap: 60px;
+    }
+
+    .container img {
+        width: 200px;
+        margin-top: 30px; 
+    }
+
+    .texto2, .texto2-1 {
+        margin-left: 0; 
+        align-self: center;
+        width: 100%;
+    }
+    
+    .container2, .container3{
+        width: 100%;
+        align-items: center;
+    }
+
+    .card{
+        width: 104px;
+        height: 150px;
+    }
+
+    .botao{
+        margin-left: 90px;
+        align-content: center;
+        display: flex;
+
+    }
+
+    .entrada, .entrada1{
+        margin-left: 0;
+    }
+
+    .lista1{
+        align-content: center;
+        justify-content: center;
+    }
+
+    .footer{
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .botao1{
+        margin-left: 0px;
+    }
+
+    .divtemp {
+        justify-content: center;
+    }
+}
+
+
+
