@@ -5,6 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .divtemp{
     display: flex;
     gap: 15px;
@@ -19,12 +20,48 @@ header{
     justify-content: space-between;
 }
 
-.lista{
-    margin-top: 5px;
-    gap: 20px;
-    list-style: none;
+#menu-check {
+    display: none;  /* diretamente de um tutorial do yt ksksk*/
+}
+
+.menu-toggle {
     display: flex;
-    padding-top: 5px;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    transition: 0.3s;
+}
+
+.lista {
+    display: none; 
+    flex-direction: column;
+    position: absolute;
+    top: 95px; 
+    right: 9; /* gabiarra pra lista aparecer embaixo do icon*/
+    width: 100%;
+    background-color: #c4c4c4;
+    list-style: none;
+}
+
+#menu-check:checked ~ .lista {
+    display: flex;
+}
+
+#menu-check:checked ~ .menu-toggle .bar:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 6px);
+}
+#menu-check:checked ~ .menu-toggle .bar:nth-child(2) {
+    opacity: 0;
+}
+#menu-check:checked ~ .menu-toggle .bar:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -6px);
 }
 
 .container{
@@ -247,7 +284,7 @@ header{
     }
 
     .botao{
-        margin-left: 90px;
+        margin-left: 110px;
         align-content: center;
         display: flex;
 
