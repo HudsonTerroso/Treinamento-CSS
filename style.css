@@ -5,6 +5,17 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a:hover{
+    color: red;
+    transition: all 0.7s ease;
+    background-color: #333;
+}
+
+.fade:hover{
+    opacity: calc(0.3);
+}
+
+
 
 .divtemp{
     display: flex;
