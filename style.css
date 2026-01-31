@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: darkred;
+    background-color: rgb(122, 178, 178);
 }
 
 a:hover{
@@ -29,14 +29,14 @@ a:hover{
 }
 
 header{
-    background-color: black;
+    background-color: rgb(9, 99, 126);
     padding: 28px 30px 28px 30px;
     display: flex;
     justify-content: space-between;
 }
 
 header h1{
-    color: darkred;
+    color: black;
 }
 
 #menu-check {
@@ -54,7 +54,7 @@ header h1{
 .bar {
     width: 25px;
     height: 3px;
-    background-color: #333;
+    background-color: rgb(8, 131, 149);
     transition: 0.3s;
 }
 
@@ -65,7 +65,7 @@ header h1{
     top: 95px; 
     right: 9; /* gabiarra pra lista aparecer embaixo do icon*/
     width: 100%;
-    background-color: black;
+    background-color: rgb(8, 131, 149);
     list-style: none;
 }
 
@@ -91,7 +91,7 @@ header h1{
     padding-right: 15%;
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: darkred;
+    background-color: rgb(8, 131, 149);
 }
 
 .container img{
@@ -99,6 +99,7 @@ header h1{
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     max-width: 100%;
     height: auto;
+    width: 240px;
 }
 
 .texto{
@@ -114,7 +115,7 @@ header h1{
     justify-content: center;
     gap: 40px;
     padding: 40px;  
-    background-color: black;  
+    background-color: rgb(8, 131, 149);  
 }
 
 .texto2{
@@ -142,7 +143,7 @@ header h1{
 .card{
     color: black;
     overflow: hidden;
-    background-color: darkred;
+    background-color: rgb(9, 99, 126);
     border-radius: 5px;
     width: 102px;
     height: 150px;
@@ -163,7 +164,7 @@ header h1{
 }
 
 .numero{
-    background-color: #c4c4c4;
+    background-color: rgb(46, 46, 124);;
     width: 24px;
     height: 24px;
     display: flex;
@@ -186,7 +187,7 @@ header h1{
 }
 
 .container4{
-    background-color: darkred;
+    background-color: rgb(122, 178, 178);
     align-content: center;
     margin-top: 80px;
     padding: 40px 10%;
@@ -199,9 +200,8 @@ header h1{
 }
 
 .entrada1{
-    color: darkred;
     padding: 15px;
-    background-color: black;
+    background-color: white;
     border-radius: 4px;
     display: flex;
     margin-left: 40px;
@@ -209,9 +209,8 @@ header h1{
 }
 
 .entrada{
-    color: darkred;
     padding: 15px;
-    background-color: black;
+    background-color: white;
     border-radius: 4px;
     display: flex;
     margin-left: 40px;
@@ -219,7 +218,7 @@ header h1{
 
 .botao{
     align-self: flex-end;
-    background-color: black;
+    background-color: white;
     margin-top: 15px;
     width: 127px;
     height: 37px;
@@ -233,7 +232,7 @@ header h1{
 }
 
 .footer{
-    background-color: black;
+    background-color: rgb(9, 99, 126);
     display: flex;
     margin-top: 20px;
     justify-content: space-between;
@@ -259,7 +258,7 @@ header h1{
 }
 
 .botao1{
-    background-color: darkred;
+    background-color: white;
     width: 162px;
     height: 38px;
     display: flex;
