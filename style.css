@@ -5,6 +5,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background-color: darkred;
+}
+
 a:hover{
     color: red;
     transition: all 0.7s ease;
@@ -182,10 +186,10 @@ header h1{
 }
 
 .container4{
+    background-color: darkred;
     align-content: center;
-    margin-left: 10%;
-    margin-right: 10%;
     margin-top: 80px;
+    padding: 40px 10%;
 }
 
 .container4 h2{
@@ -195,8 +199,9 @@ header h1{
 }
 
 .entrada1{
+    color: darkred;
     padding: 15px;
-    background-color: #ececec;
+    background-color: black;
     border-radius: 4px;
     display: flex;
     margin-left: 40px;
@@ -204,15 +209,17 @@ header h1{
 }
 
 .entrada{
+    color: darkred;
     padding: 15px;
-    background-color: #ececec;
+    background-color: black;
     border-radius: 4px;
     display: flex;
     margin-left: 40px;
 }
 
 .botao{
-    background-color: #d9d9d9;
+    align-self: flex-end;
+    background-color: black;
     margin-top: 15px;
     width: 127px;
     height: 37px;
@@ -226,12 +233,12 @@ header h1{
 }
 
 .footer{
-    background-color: #c4c4c4;
+    background-color: black;
     display: flex;
     margin-top: 20px;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 40px;
+    padding: 20px 40px;
     margin-top: 20px;
     flex-direction: row-reverse;
 }
@@ -252,7 +259,7 @@ header h1{
 }
 
 .botao1{
-    background-color: #d9d9d9;
+    background-color: darkred;
     width: 162px;
     height: 38px;
     display: flex;
@@ -261,6 +268,7 @@ header h1{
     flex-direction: column;
     justify-content: center;
     border-radius: 5%;
+    color: black;
 
 }
 
