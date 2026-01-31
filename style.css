@@ -25,10 +25,14 @@ a:hover{
 }
 
 header{
-    background-color: #c4c4c4;
+    background-color: black;
     padding: 28px 30px 28px 30px;
     display: flex;
     justify-content: space-between;
+}
+
+header h1{
+    color: darkred;
 }
 
 #menu-check {
@@ -83,7 +87,7 @@ header{
     padding-right: 15%;
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: #f3f3f3;
+    background-color: darkred;
 }
 
 .container img{
@@ -105,7 +109,8 @@ header{
     display: flex;
     justify-content: center;
     gap: 40px;
-    padding: 40px;    
+    padding: 40px;  
+    background-color: black;  
 }
 
 .texto2{
